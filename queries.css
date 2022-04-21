@@ -39,9 +39,9 @@
 }
 
 @media (max-width: 36em) {
-/*   .man-icon img {
-    transform: translate(-50%, 50%);
-  } */
+  .man-icon img {
+    transform: translate(-50%, 100%);
+  }
   .intro {
     font-size: 3rem;
   }
