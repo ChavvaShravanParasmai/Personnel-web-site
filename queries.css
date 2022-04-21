@@ -7,9 +7,9 @@
 */
 
 @media (max-width: 84em) {
-  .man-icon img {
+/*   .man-icon img {
     transform: translate(-50%, 15%);
-  }
+  } */
 }
 
 @media (max-width: 59em) {
@@ -20,15 +20,15 @@
   .intro {
     font-size: 4.4rem;
   }
-  .man-icon img {
+/*   .man-icon img {
     transform: translate(-50%, -5%);
-  }
+  } */
 }
 
 @media (max-width: 44em) {
-  .man-icon img {
+/*   .man-icon img {
     transform: translate(-50%, 10%);
-  }
+  } */
   .intro {
     font-size: 3rem;
   }
@@ -39,9 +39,9 @@
 }
 
 @media (max-width: 36em) {
-  .man-icon img {
+/*   .man-icon img {
     transform: translate(-50%, 50%);
-  }
+  } */
   .intro {
     font-size: 3rem;
   }
@@ -63,9 +63,9 @@
 }
 
 @media (max-width: 30em) {
-  .man-icon img {
+/*   .man-icon img {
     transform: translate(-50%, 25%);
-  }
+  } */
   .intro {
     font-size: 2.4rem;
   }
