@@ -26,9 +26,9 @@
 }
 
 @media (max-width: 44em) {
-/*   .man-icon img {
-    transform: translate(-50%, 10%);
-  } */
+  .man-icon img {
+    transform: translate(-50%, 100%);
+  }
   .intro {
     font-size: 3rem;
   }
@@ -39,9 +39,9 @@
 }
 
 @media (max-width: 36em) {
-  .man-icon img {
+/*   .man-icon img {
     transform: translate(-50%, 100%);
-  }
+  } */
   .intro {
     font-size: 3rem;
   }
