@@ -1,0 +1,224 @@
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  position: relative;
+  background-color: #f1f3f5;
+  height: 100vh;
+  font-family: "Roboto Slab", serif;
+  color: #212529;
+  overflow: hidden;
+}
+
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.man-icon img {
+  width: 10rem;
+  height: 10rem;
+  /* position: absolute;
+  top: 20%;
+  left: 50%;
+  /* transform: translateX(-50%); */
+  /* transform: translate(-50%, 20%); */
+}
+
+/* .intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.6rem;
+  text-align: center;
+} */
+
+.container {
+  max-width: 80rem;
+  margin: 9.6rem auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  row-gap: 12rem;
+}
+
+/* SECTION HOBBIES */
+/******************/
+
+.secondary-heading {
+  font-size: 3.6rem;
+  margin-bottom: 8rem;
+  color: #212529;
+  text-align: center;
+}
+
+.hobbie-row {
+  padding: 5rem 0;
+  text-align: left;
+}
+
+.content {
+  padding-top: 0.9rem;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  color: #495057;
+}
+
+.hobbie {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #343a40;
+  padding-top: 1rem;
+}
+
+.padding-left {
+  padding-left: 2rem;
+}
+
+.cricket-img {
+  float: left;
+  width: 15rem;
+  padding-right: 4rem;
+}
+
+.clapperboard-img {
+  float: right;
+  width: 15rem;
+  padding-left: 4rem;
+}
+
+.Music-img {
+  float: left;
+  width: 15rem;
+  padding-right: 4rem;
+}
+
+/* .hobbies-png {
+  width: 12rem;
+  height: 12rem;
+  justify-self: center;
+} */
+
+/******************/
+/* SECTION QUOTE */
+/******************/
+.quote-secondary-heading {
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: #212529;
+}
+
+blockquote {
+  position: relative;
+}
+
+.quotation-mark {
+  font-size: 2.4rem;
+  color: inherit;
+}
+
+.quote {
+  font-size: 1.8rem;
+  color: #343a40;
+  text-align: center;
+}
+
+.author {
+  position: absolute;
+  left: 63.5%;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #495057;
+  text-align: center;
+}
+
+/******************/
+/* SECTION Contact */
+/******************/
+
+.hire {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 3.2rem;
+}
+
+.developer-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  text-decoration: none;
+  color: #f8f9fa;
+  background-color: #343a40;
+  font-size: 1.4rem;
+  padding: 1.2rem;
+  transition: all 0.3s;
+}
+
+.contact-link:hover,
+.contact-link:active {
+  background-color: #212529;
+}
+
+/******************/
+/* SECTION FOOTER */
+/******************/
+
+footer {
+  background-color: #f8f9fa;
+  padding: 3.2rem;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4rem;
+}
+.social-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  text-align: center;
+  color: #495057;
+}
